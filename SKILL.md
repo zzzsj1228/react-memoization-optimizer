@@ -63,5 +63,10 @@ function App({ items }) {
   return <List items={filtered} onSelect={onSelect} />;
 }
 ```
+## 案例与测试
+- 反例：examples/bad-overuse.tsx
+- 正例：examples/good-memo-child.tsx
+- 测试案例：tests/cases.md
 
+新增规则时，请同步更新案例和测试。
 
